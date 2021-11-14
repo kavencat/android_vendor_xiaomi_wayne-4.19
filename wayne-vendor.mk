@@ -1317,7 +1317,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.constants@2.1 \
     libantradio \
-    SoterService \
     CneApp \
     IWlanService \
     TimeService \
