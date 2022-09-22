@@ -1267,6 +1267,8 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@1.0 \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.constants@2.1 \
+    vendor.xiaomi.hardware.mlipay@1.0 \
+    vendor.xiaomi.hardware.mlipay@1.1 \
     libantradio \
     CneApp \
     IWlanService \
