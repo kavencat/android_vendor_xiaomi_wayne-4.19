@@ -1274,6 +1274,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
+
+PRODUCT_PACKAGES += \
     libthermalclient \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
