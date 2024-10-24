@@ -978,6 +978,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
@@ -1030,7 +1031,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/fingerprint.goodix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.default.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
-    vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
@@ -1163,6 +1163,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
